@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body href="#articles">
     <header>
         <h1>Bienvenue sur mon site !</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Articles</a></li>
-                <li><a href="pages/projets.html">Projets de lois</a></li>
-                <li><a href="pages/proposition.html">Faire une proposition de loi</a></li>
+                <li><a onclick="load_articles()" href="#articles">Articles</a></li>
+                <li><a onclick="load_suggestions()" href="#suggestions">suggestions</a></li>
             </ul>
         </nav>
     </header>
@@ -27,6 +26,7 @@
         <p>&copy; 2025 Mon Site. Tous droits réservés.</p>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="pages/articles.js"></script>
+    <script src="pages/suggestions.js"></script>
 </body>
 </html>

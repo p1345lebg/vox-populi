@@ -1,5 +1,3 @@
-const articles = document.getElementById("articles");
-
 const load_articles = () => {
     fetch('datas/articles.json')
         .then(response => {
@@ -9,6 +7,8 @@ const load_articles = () => {
             return response.json();
         })
         .then(data => {
+            const main = document.getElementById("main");
+
             var articlesTempo = ""
             data.forEach((element,index) => {
                 articlesTempo += `
@@ -19,9 +19,8 @@ const load_articles = () => {
                     </div>
                 `;
             });
-            articles.innerHTML = articlesTempo;
+            main.innerHTML = articlesTempo;
         });
 }
-
 
 load_articles();
