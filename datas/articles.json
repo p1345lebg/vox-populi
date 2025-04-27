@@ -1,0 +1,26 @@
+[
+    {
+        "title" : "titre",
+        "image" : null,
+        "content" :"aujourd'hui j'ai fait caca dans la scene",
+        "autor" : "Michel Michel",
+        "metadonnees" : {
+            "country" : "France",
+            "city" : "Paris",
+            "date" : "2025 10 10",
+            "hour" : "10h20"
+        }
+    },
+    {
+        "title" : "Des teletubbies son mort !!!!! OMG !!!! (smiley choqué)",
+        "image" : null,
+        "content" :"300 avions s'est écrasé et a tué tous les teletubbies",
+        "autor" : "Jean Michel",
+        "metadonnees" : {
+            "country" : "Pays des teletubbies",
+            "city" : null,
+            "date" : "2025 10 10",
+            "hour" : "10h21"
+        }
+    }
+]

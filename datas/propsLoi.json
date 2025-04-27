@@ -1,0 +1,46 @@
+[
+    {
+        "nom" : "caca",
+        "details" : "on peut vendre notre caca",
+        "textesConsernés" : ["DDHC"],
+        "categories" : ["economie", "ecologie"],
+        "avis" : {
+            "favorables" : [{
+                "nom" : "michel michel",
+                "avis" : "le caca c'est délicieux",
+                "nbNote" : 1,
+                "note" : 5
+                }
+            ],
+            "defavorables" : [{
+                "nom" : "jean michel",
+                "avis" : "oh nom cela vas a l'encontre de la vie pivée (tout le monde pourrais se procurer notre ADN)",
+                "nbNote" : 1,
+                "note" : 3
+                }
+            ]
+        }
+    },
+    {
+        "nom" : "manger la croute des pizza",
+        "details" : "on  ne peut plus laisser les gens laisser sur le coté la croute de leur pizza !!!!!",
+        "textesConsernés" : ["nourriture"],
+        "categories" : ["gastronomie"],
+        "avis" : {
+            "favorables" : [{
+                "nom" : "michel michel",
+                "avis" : "exactement",
+                "nbNote" : 1,
+                "note" : 5
+                }
+            ],
+            "defavorables" : [{
+                "nom" : "jean michel",
+                "avis" : "mais c'est pas bon ;-;",
+                "nbNote" : 1,
+                "note" : 0
+                }
+            ]
+        }
+    }
+]
