@@ -16,6 +16,7 @@ header {
   z-index: 1000;
   padding: 0.5%;
   border-bottom: solid 1px #3f3f3f;
+  user-select: none;
 }
 
 header h1 {
@@ -27,6 +28,26 @@ header h1 {
   left: 15%;
   top: 0%;
   height: 100%;
+}
+.ConnexionContainer {
+  position: absolute;
+  right: 20%;
+  top: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40%;
+  cursor: pointer;
+}
+
+.Connexion {
+  width: 30px;
+  height: auto;
+}
+
+.ConnexionText {
+  color: #b3bfff;
+  margin-left: 5%;
 }
 
 nav ul {
@@ -46,7 +67,10 @@ nav ul li a {
 
 main {
   padding: 20px;
-  max-width: 900px;
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   margin: auto;
 }
 
@@ -60,9 +84,6 @@ footer {
   padding: 20px;
   background-color: #1e1e1e;
   color: #fff;
-}
-.articles {
-  background-color: #1b1b35;
 }
 
 .article {
