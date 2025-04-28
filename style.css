@@ -91,6 +91,7 @@ footer {
 .purpleArrow {
   position: absolute;
   right: 2%;
+  top: 80%;
   width: 20px;
   height: auto;
 }
