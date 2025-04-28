@@ -1,80 +1,117 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #161616;
+  color: #333;
 }
-
 
 header {
-    background-color: #35424a;
-    color: #fff;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0.5%;
+  border-bottom: solid 1px #3f3f3f;
 }
 
-
 header h1 {
-    margin: 0;
+  margin: 0;
+}
+
+.LogoGouv {
+  position: absolute;
+  left: 15%;
+  top: 0%;
+  height: 100%;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+  display: inline-block;
+  margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 main {
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
 }
 
 section {
-    scroll-margin-top: 88px; /* adapte à la hauteur de ton header */
-    margin-bottom: 40px;
+  scroll-margin-top: 88px; /* adapte à la hauteur de ton header */
+  margin-bottom: 40px;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #35424a;
-    color: #fff;
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+.articles {
+  background-color: #1b1b35;
 }
 
-.articles{
-    background-color: #999;
+.article {
+  position: relative;
+  background-color: #161616;
+  color: #cecece;
+  padding: 1%;
+  margin: 1% 0 2% 0;
+  border: solid 1px #3f3f3f;
+  border-bottom: solid 8px #8585f6;
+  user-select: none;
 }
 
-.article{
-    background-color: #aaa;
-}
-.article_nav{
-    background-color: #aaa;
-    div{
-        background-color: #777;
-        width:30px;
-        height: 30px;
-    }
+.article:hover {
+  background-color: #3f3f3f;
+  border-color: #161616;
+  border-bottom: solid 8px #8585f6;
+  cursor: pointer;
 }
 
-.propositions{
-    background-color: #999;
+.article h2 {
+  text-align: center;
+  color: #8585f6;
 }
 
-.propLoi{
-    background-color: #aaa;
+.purpleArrow {
+  position: absolute;
+  right: 2%;
+  width: 20px;
+  height: auto;
+}
+
+.autor {
+  font-style: italic;
+}
+
+.article_nav {
+  background-color: #aaa;
+  div {
+    background-color: #777;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.propositions {
+  background-color: #999;
+}
+
+.propLoi {
+  background-color: #aaa;
 }

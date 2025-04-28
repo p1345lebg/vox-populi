@@ -1,26 +1,50 @@
 [
-    {
-        "title" : "titre",
-        "image" : null,
-        "content" :"aujourd'hui j'ai fait caca dans la scene",
-        "autor" : "Michel Michel",
-        "metadonnees" : {
-            "country" : "France",
-            "city" : "Paris",
-            "date" : "2025 10 10",
-            "hour" : "10h20"
-        }
-    },
-    {
-        "title" : "Des teletubbies son mort !!!!! OMG !!!! (smiley choqué)",
-        "image" : null,
-        "content" :"300 avions s'est écrasé et a tué tous les teletubbies",
-        "autor" : "Jean Michel",
-        "metadonnees" : {
-            "country" : "Pays des teletubbies",
-            "city" : null,
-            "date" : "2025 10 10",
-            "hour" : "10h21"
-        }
+  {
+    "title": "Loi votable numéro 1",
+    "image": null,
+    "content": "La phrase qui introduit l'idée de la loi numéro 1",
+    "autor": "Numéro 1",
+    "metadonnees": {
+      "country": "France",
+      "city": "Paris",
+      "date": "2025 10 10",
+      "hour": "10h20"
     }
+  },
+  {
+    "title": "Loi votable numéro 2",
+    "image": null,
+    "content": "La phrase qui introduit l'idée de la loi numéro 2",
+    "autor": "Numéro 2",
+    "metadonnees": {
+      "country": "KSP",
+      "city": null,
+      "date": "2025 10 10",
+      "hour": "10h21"
+    }
+  },
+  {
+    "title": "Loi votable numéro 3",
+    "image": null,
+    "content": "La phrase qui introduit l'idée de la loi numéro 3",
+    "autor": "Numéro 3",
+    "metadonnees": {
+      "country": "IDK",
+      "city": null,
+      "date": "2025 12 10",
+      "hour": "10h30"
+    }
+  },
+  {
+    "title": "Loi votable numéro 4",
+    "image": null,
+    "content": "La phrase qui introduit l'idée de la loi numéro 4",
+    "autor": "Numéro 4",
+    "metadonnees": {
+      "country": "JSP",
+      "city": null,
+      "date": "2025 11 10",
+      "hour": "10h10"
+    }
+  }
 ]
