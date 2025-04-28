@@ -1,5 +1,4 @@
 const load_suggestions = () => {
-    console.log('ok')
     fetch("./datas/suggestionsLoi.json")
         .then(response => {
             if (!response.ok){
@@ -12,13 +11,13 @@ const load_suggestions = () => {
 
             var suggestionsTempo = ""
             data.forEach((element, index) => {
-                console.log(element)
                 suggestionsTempo += `
-                    <div classe="suggestionLoi" id="suggestionLoi${index}" onclick="select_suggestion(${index})>
+                    <div classe="suggestionLoi" id="suggestionLoi${index}">
                         <h2>${element.nom}</h2>
                         <p>${element.details}</p>
                         <p>${element.categories}</p>
                         <p>${element.redactor}</p>
+                        <buttononclick="select_suggestion(${index})>voir plus</button>
                     </div>
                 `;
             })
