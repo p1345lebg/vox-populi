@@ -4,6 +4,7 @@
         "details" : "on peut vendre notre caca",
         "textesConsernés" : ["DDHC"],
         "categories" : ["economie", "ecologie"],
+        "redactor" : "richard",
         "avis" : {
             "favorables" : [{
                 "nom" : "michel michel",
@@ -26,6 +27,7 @@
         "details" : "on  ne peut plus laisser les gens laisser sur le coté la croute de leur pizza !!!!!",
         "textesConsernés" : ["nourriture"],
         "categories" : ["gastronomie"],
+        "redactor" : "richard",
         "avis" : {
             "favorables" : [{
                 "nom" : "michel michel",

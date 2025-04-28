@@ -18,6 +18,7 @@ const load_suggestions = () => {
                         <h2>${element.nom}</h2>
                         <p>${element.details}</p>
                         <p>${element.categories}</p>
+                        <p>${element.redactor}</p>
                         <button onclick="select_suggestion(${index})">voir plus</button>
                     </div>
                 `;
@@ -42,6 +43,7 @@ const select_suggestion = (indexSuggestion) => {
                     <h2>${data[indexSuggestion].nom}</h2>
                     <p>${data[indexSuggestion].details}</p>
                     <p>${data[indexSuggestion].categories}</p>
+                    <p>${data[indexSuggestion].redactor}</p>
                 </div>
             `
         })
