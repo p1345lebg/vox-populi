@@ -16,11 +16,33 @@ const load_articles = () => {
                         <h2>${element.title}</h2>
                         <p>${element.content}</p>
                         <p>${element.autor}</p>
+                        <button onclick="select_article(${index})">voir plus</button>
                     </div>
                 `;
             });
             main.innerHTML = articlesTempo;
         });
+}
+
+const select_article = (indexArticle) => {
+    fetch("../datas/articles.json")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('erreur réseau')
+            }
+            return response.json()
+        })
+        .then(data => {
+            const main = document.getElementById("main");
+
+            main.innerHTML = `
+                <div classe="article">
+                    <h2>${data[indexArticle].title}</h2>
+                    <p>${data[indexArticle].content}</p>
+                    <p>${data[indexArticle].autor}</p>
+                </div>
+            `
+        })
 }
 
 load_articles();
