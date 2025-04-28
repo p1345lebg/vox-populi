@@ -14,12 +14,11 @@ const load_suggestions = () => {
             data.forEach((element, index) => {
                 console.log(element)
                 suggestionsTempo += `
-                    <div classe="suggestionLoi" id="suggestionLoi${index}">
+                    <div classe="suggestionLoi" id="suggestionLoi${index}" onclick="select_suggestion(${index})>
                         <h2>${element.nom}</h2>
                         <p>${element.details}</p>
                         <p>${element.categories}</p>
                         <p>${element.redactor}</p>
-                        <button onclick="select_suggestion(${index})">voir plus</button>
                     </div>
                 `;
             })

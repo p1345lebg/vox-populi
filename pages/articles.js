@@ -12,11 +12,10 @@ const load_articles = () => {
       var articlesTempo = "";
       data.forEach((element, index) => {
         articlesTempo += `
-                    <div class="article" id="article${index}">
+                    <div class="article" id="article${index}" onclick="select_article(${index})">
                         <h2>${element.title}</h2>
                         <p>${element.content}</p>
                         <p class="autor">${element.autor}</p>
-                        <button onclick="select_article(${index})">voir plus</button>
                         <image class="purpleArrow" src="assets/flecheViolet.png" alt="Not Found">
                     </div>
                 `;
