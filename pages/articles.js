@@ -16,7 +16,7 @@ const load_articles = () => {
                         <h2>${element.title}</h2>
                         <p>${element.content}</p>
                         <p class="autor">${element.autor}</p>
-                        <image class="purpleArrow" src="assets/flecheViolet.png" alt="Not Found">
+                        <img class="purpleArrow" src="assets/flecheViolet.png" alt="Not Found">
                     </div>
                 `;
       });

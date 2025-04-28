@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>vox-populi</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body href="#articles">
+  <body href="#articles">
     <header>
-        <image class="LogoGouv" src="assets/Gouv.png" alt="Logo Gouv">
-        <h1>Bienvenue sur mon site !</h1>
-        <nav>
-            <ul>
-                <li><a onclick="load_articles()" href="#articles">Articles</a></li>
-                <li><a onclick="load_suggestions()" href="#suggestions">suggestions</a></li>
-            </ul>
-        </nav>
+      <img class="LogoGouv" src="assets/Gouv.png" alt="Logo Gouv" />
+      <nav>
+        <ul>
+          <li><a onclick="load_articles()" href="#articles">Articles</a></li>
+          <li>
+            <a onclick="load_suggestions()" href="#suggestions">suggestions</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="ConnexionContainer">
+        <img class="Connexion" src="assets/Connexion.png" alt="Connexion" />
+        <p class="ConnexionText">Connexion</p>
+      </div>
     </header>
 
-    <main id="main">
-        <div id="articles"></div>
-    </main>
+    <main id="main"></main>
 
     <footer>
-        <p>&copy; 2025 Vote.Gouv.fr Tous droits réservés.</p>
+      <p>&copy; 2025 Vote.Gouv.fr Tous droits réservés.</p>
     </footer>
 
     <script src="./pages/articles.js"></script>
     <script src="./pages/suggestions.js"></script>
-</body>
+  </body>
 </html>
