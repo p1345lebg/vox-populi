@@ -16,6 +16,7 @@ const load_articles = () => {
                         <h2>${element.title}</h2>
                         <p>${element.content}</p>
                         <p class="autor">${element.autor}</p>
+                        <p class="date">${element.metadonnees.date} à ${element.metadonnees.hour}</p>
                         <img class="purpleArrow" src="assets/flecheViolet.png" alt="Not Found">
                     </div>
                 `;

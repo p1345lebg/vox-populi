@@ -121,6 +121,11 @@ footer {
   font-style: italic;
 }
 
+.date {
+  font-style: italic;
+  font-size: small;
+}
+
 .article_nav {
   background-color: #aaa;
   div {
