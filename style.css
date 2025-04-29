@@ -38,6 +38,7 @@ header h1 {
   align-items: center;
   height: 40%;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .Connexion {
@@ -155,7 +156,7 @@ footer {
   user-select: none;
 }
 
-.suggestionLoi:hover{
+.suggestionLoi:hover {
   background-color: #3f3f3f;
   border-color: #161616;
   border-bottom: solid 8px #8585f6;
