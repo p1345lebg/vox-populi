@@ -1,5 +1,5 @@
 const load_articles = () => {
-  fetch("datas/articles.json")
+  fetch("./datas/articles.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("erreur réseau");
@@ -21,12 +21,16 @@ const load_articles = () => {
                     </div>
                 `;
       });
-      main.innerHTML = articlesTempo;
+      main.innerHTML = `
+        <div class="articleListe">
+          ${articlesTempo}
+        </div>
+      `;
     });
 };
 
 const select_article = (indexArticle) => {
-  fetch("../datas/articles.json")
+  fetch("./datas/articles.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("erreur réseau");
@@ -37,7 +41,7 @@ const select_article = (indexArticle) => {
       const main = document.getElementById("main");
 
       main.innerHTML = `
-                <div classe="article">
+                <div class="articleDetail">
                     <h2>${data[indexArticle].title}</h2>
                     <p>${data[indexArticle].content}</p>
                     <p>${data[indexArticle].autor}</p>
