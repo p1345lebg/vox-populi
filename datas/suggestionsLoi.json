@@ -1,10 +1,11 @@
 [
     {
         "nom" : "caca",
+        "phraseAccroche" : "on peut vendre notre caca",
         "details" : "on peut vendre notre caca",
         "textesConsernés" : ["DDHC"],
         "categories" : ["economie", "ecologie"],
-        "redactor" : "richard",
+        "autor" : "richard",
         "avis" : {
             "favorables" : [{
                 "nom" : "michel michel",
@@ -24,10 +25,11 @@
     },
     {
         "nom" : "manger la croute des pizza",
+        "phraseAccroche" : "on doit forcer les les gens a manger les croutes de leur pizza",
         "details" : "on  ne peut plus laisser les gens laisser sur le coté la croute de leur pizza !!!!!",
         "textesConsernés" : ["nourriture"],
         "categories" : ["gastronomie"],
-        "redactor" : "richard",
+        "autor" : "richard",
         "avis" : {
             "favorables" : [{
                 "nom" : "michel michel",
