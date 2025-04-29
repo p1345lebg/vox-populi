@@ -1,5 +1,5 @@
 const load_articles = () => {
-  fetch("./datas/articles.json")
+  fetch("/datas/articles.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("erreur réseau");
@@ -17,7 +17,7 @@ const load_articles = () => {
                         <p>${element.content}</p>
                         <p class="autor">${element.autor}</p>
                         <p class="date">${element.metadonnees.date} à ${element.metadonnees.hour}</p>
-                        <img class="purpleArrow" src="assets/flecheViolet.png" alt="Not Found">
+                        <img class="purpleArrow" src="/assets/flecheViolet.png" alt="Not Found">
                     </div>
                 `;
       });
@@ -30,7 +30,7 @@ const load_articles = () => {
 };
 
 const select_article = (indexArticle) => {
-  fetch("./datas/articles.json")
+  fetch("/datas/articles.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("erreur réseau");

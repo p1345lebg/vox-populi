@@ -38,3 +38,5 @@ const create_article = () => {
     }
     console.log(article)
 }
+
+load_create_article()
