@@ -1,5 +1,5 @@
 const load_articles = () => {
-  fetch("/datas/articles.json")
+  fetch("../datas/articles.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("erreur réseau");
@@ -30,7 +30,7 @@ const load_articles = () => {
 };
 
 const select_article = (indexArticle) => {
-  fetch("/datas/articles.json")
+  fetch("../datas/articles.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("erreur réseau");

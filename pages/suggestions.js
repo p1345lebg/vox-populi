@@ -1,5 +1,5 @@
 const load_suggestions = () => {
-    fetch("/datas/suggestionsLoi.json")
+    fetch("../datas/suggestionsLoi.json")
         .then(response => {
             if (!response.ok){
                 throw new Error('erreur réseau')
@@ -29,7 +29,7 @@ const load_suggestions = () => {
 }
 
 const select_suggestion = (indexSuggestion) => {
-    fetch("/datas/suggestionsLoi.json")
+    fetch("../datas/suggestionsLoi.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error('erreur réseau')
