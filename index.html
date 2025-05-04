@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vox-populi</title>
-    <link rel="stylesheet" href="style.css" />
-    <meta http-equiv="refresh" content="0; URL=./pages/news.html">
-  </head>
 
-  <body>
-    <header>
-      <img class="LogoGouv" src="assets/Gouv.png" alt="Logo Gouv" />
-      <nav>
-        <ul>
-          <li><a href="/pages/news.html">Articles</a></li>
-          <li><a href="/pages/suggestions.html">suggestions</a></li>
-          <li><a href="/pages/createNews.html">créer une news</a></li>
-        </ul>
-      </nav>
-      <a class="ConnexionContainer" href="https://app.franceconnect.gouv.fr/api/v1/authorize?scope=openid+profile+birth&nonce=7X1j91N_F8gJycg3jlfo8w&client_id=da1c760c3e336b68d6ba08b670f0c3e32bd32a6969693ebb67b3dfad4419395b&display=&acr_values=eidas1&response_type=code&redirect_uri=https%3A%2F%2Fcfspart.impots.gouv.fr%2F%3Fopenidconnectcallback%3D1&state=f1ad3423d7855a74ef9c5d15c7ac604bf0cb60e19131a0d449a26ced62a3932f">
-        <img class="Connexion" src="assets/Connexion.png" alt="Connexion" />
-        <p class="ConnexionText">Connexion</p>
-      </a>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vox-populi</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta http-equiv="refresh" content="0; URL=./pages/news.html">
+</head>
 
-    <main id="main"></main>
+<body>
+  <header>
+    <img class="LogoGouv" src="assets/Gouv.png" alt="Logo Gouv" />
+    <nav>
+      <ul>
+        <li><a href="./news.html" class="nav-link">Articles</a></li>
+        <li><a href="./suggestions.html" class="nav-link">Suggestions</a></li>
+        <li><a href="./createNews.html" class="nav-link">Ajouter une News</a></li>
+      </ul>
+    </nav>
+    <a class="ConnexionContainer"
+      href="https://app.franceconnect.gouv.fr/api/v1/authorize?scope=openid+profile+birth&nonce=7X1j91N_F8gJycg3jlfo8w&client_id=da1c760c3e336b68d6ba08b670f0c3e32bd32a6969693ebb67b3dfad4419395b&display=&acr_values=eidas1&response_type=code&redirect_uri=https%3A%2F%2Fcfspart.impots.gouv.fr%2F%3Fopenidconnectcallback%3D1&state=f1ad3423d7855a74ef9c5d15c7ac604bf0cb60e19131a0d449a26ced62a3932f">
+      <img class="Connexion" src="assets/Connexion.png" alt="Connexion" />
+      <p class="ConnexionText">Connexion</p>
+    </a>
+  </header>
 
-    <footer>
-      <p>&copy; 2025 Vote.Gouv.fr Tous droits réservés.</p>
-    </footer>
-  </body>
+  <main id="main"></main>
+
+  <footer>
+    <p>&copy; 2025 Vote.Gouv.fr Tous droits réservés.</p>
+  </footer>
+  <script>
+    const links = document.querySelectorAll('.nav-link');
+    const currentPath = window.location.pathname;
+
+    links.forEach(link => {
+      const linkPath = new URL(link.href).pathname;
+      if (linkPath === currentPath) {
+        link.classList.add('active');
+      }
+    });
+  </script>
+</body>
+
 </html>

@@ -29,6 +29,7 @@ header h1 {
   top: 0%;
   height: 100%;
 }
+
 .ConnexionContainer {
   position: absolute;
   right: 20%;
@@ -49,6 +50,7 @@ header h1 {
 .ConnexionText {
   color: #b3bfff;
   margin-left: 5%;
+  font-weight: bold;
 }
 
 nav ul {
@@ -62,8 +64,21 @@ nav ul li {
 }
 
 nav ul li a {
+  font-weight: bold;
   color: #fff;
   text-decoration: none;
+  padding: 1.8rem;
+}
+
+nav ul li a:hover {
+  color: #8585f6;
+  border-bottom: solid 2px #8585f6;
+  transition: 0.1s ease-in-out;
+}
+
+nav ul li a.active {
+  color: #8585f6;
+  border-bottom: solid 2px #8585f6;
 }
 
 main {
@@ -73,7 +88,8 @@ main {
 }
 
 section {
-  scroll-margin-top: 88px; /* adapte à la hauteur de ton header */
+  scroll-margin-top: 88px;
+  /* adapte à la hauteur de ton header */
   margin-bottom: 40px;
 }
 
@@ -132,6 +148,7 @@ footer {
 
 .article_nav {
   background-color: #aaa;
+
   div {
     background-color: #777;
     width: 30px;
@@ -162,7 +179,81 @@ footer {
   border-bottom: solid 8px #8585f6;
   cursor: pointer;
 }
+
 .suggestionLoi h2 {
   text-align: center;
   color: #8585f6;
+}
+
+
+/* style.css pour CreateNews.html */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #7070ea;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label {
+  display: block;
+  font-size: 1.1rem;
+  margin: 2.5% 0 0.5% 0;
+  color: #8585f6;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #1e1e1e;
+  font-size: 1rem;
+  transition: border-color 0.1s ease-in-out;
+  color: #cecece;
+
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+input:focus,
+textarea:focus {
+  border-color: #6a6aea;
+  outline: none;
+  background-color: #1e1e1e;
+}
+
+.btn-submit {
+  padding: 0.75rem 1.5rem;
+  background-color: #6a6aea;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+  margin-top: 2rem;
+}
+
+.btn-submit:hover {
+  background-color: #3d3ddd;
+}
+
+.seperate {
+  padding: 1%;
 }
