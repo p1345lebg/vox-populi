@@ -7,7 +7,7 @@ const load_create_suggestion = () => {
             <input type="text" class="PlaceholderAccrocheSuggestion" id="suggestionAccroche" placeholder="phrase d'accroche de la suggestion de la suggestion" />
             <textarea id="suggestionContent" placeholder="contenu de la suggestion"></textarea>
             <input type="text" class="PlaceholderAutorSuggestion" id="suggestionAutor" placeholder="auteur(s) de la suggestion" />
-            <button class="submit" onclick="create_suggestion()">soumettre</button>
+            <button class="btn-submit" onclick="create_suggestion()">soumettre</button>
         </div>
     `
 }
