@@ -3,7 +3,7 @@
         "nom" : "Suggestion 1",
         "phraseAccroche" : "phrase d'accroche",
         "details" : "detail de la suggestion numero ",
-        "textesConsernés" : ["teste 1"],
+        "textesConsernés" : ["texte 1"],
         "categories" : ["categorie 1", "categorie 2"],
         "autor" : "auteur",
         "avis" : {
@@ -24,27 +24,87 @@
         }
     },
     {
-        "nom" : "manger la croute des pizza",
-        "phraseAccroche" : "on doit forcer les les gens a manger les croutes de leur pizza",
-        "details" : "on  ne peut plus laisser les gens laisser sur le coté la croute de leur pizza !!!!!",
-        "textesConsernés" : ["nourriture"],
-        "categories" : ["gastronomie"],
-        "autor" : "richard",
+        "nom" : "Suggestion 2",
+        "phraseAccroche" : "Nouvelle idée pour améliorer le quotidien",
+        "details" : "Cette suggestion vise à améliorer un aspect important de la vie quotidienne.",
+        "textesConsernés" : ["vie quotidienne"],
+        "categories" : ["amélioration", "pratique"],
+        "autor" : "utilisateur inconnu",
         "avis" : {
-            "favorables" : [{
-                "nom" : "michel michel",
-                "avis" : "exactement",
-                "nbNote" : 1,
-                "note" : 5
-                }
-            ],
-            "defavorables" : [{
-                "nom" : "jean michel",
-                "avis" : "mais c'est pas bon ;-;",
-                "nbNote" : 1,
-                "note" : 0
-                }
-            ]
+            "favorables" : [],
+            "defavorables" : []
+        }
+    },
+    {
+        "nom" : "Suggestion 3",
+        "phraseAccroche" : "Changer la façon dont on trie les déchets",
+        "details" : "Proposition d'un nouveau système de tri plus efficace et accessible.",
+        "textesConsernés" : ["écologie"],
+        "categories" : ["environnement", "logistique"],
+        "autor" : "eco_militant",
+        "avis" : {
+            "favorables" : [],
+            "defavorables" : []
+        }
+    },
+    {
+        "nom" : "Suggestion 4",
+        "phraseAccroche" : "Une application pour partager des objets gratuitement",
+        "details" : "Permet de prêter ou donner des objets à ses voisins pour éviter le gaspillage.",
+        "textesConsernés" : ["entraide locale"],
+        "categories" : ["technologie", "solidarité"],
+        "autor" : "dev_solidaire",
+        "avis" : {
+            "favorables" : [],
+            "defavorables" : []
+        }
+    },
+    {
+        "nom" : "Suggestion 5",
+        "phraseAccroche" : "Encourager les transports doux",
+        "details" : "Idée pour développer des pistes cyclables sécurisées et inciter à leur usage.",
+        "textesConsernés" : ["mobilité urbaine"],
+        "categories" : ["écologie", "urbanisme"],
+        "autor" : "mobilite_plus",
+        "avis" : {
+            "favorables" : [],
+            "defavorables" : []
+        }
+    },
+    {
+        "nom" : "Suggestion 6",
+        "phraseAccroche" : "Créer des espaces de discussion intergénérationnels",
+        "details" : "Mettre en place des lieux où jeunes et anciens peuvent échanger.",
+        "textesConsernés" : ["lien social"],
+        "categories" : ["société", "inclusion"],
+        "autor" : "asso_reunion",
+        "avis" : {
+            "favorables" : [],
+            "defavorables" : []
+        }
+    },
+    {
+        "nom" : "Suggestion 7",
+        "phraseAccroche" : "Réduire les emballages plastiques dans les supermarchés",
+        "details" : "Imposer plus de vrac et de contenants réutilisables.",
+        "textesConsernés" : ["consommation"],
+        "categories" : ["écologie", "consommation responsable"],
+        "autor" : "verte_planete",
+        "avis" : {
+            "favorables" : [],
+            "defavorables" : []
+        }
+    },
+    {
+        "nom" : "Suggestion 8",
+        "phraseAccroche" : "Offrir un repas chaud quotidien aux étudiants",
+        "details" : "Proposition de cantines gratuites ou à prix symbolique pour les étudiants.",
+        "textesConsernés" : ["éducation"],
+        "categories" : ["solidarité", "jeunesse"],
+        "autor" : "etudiant_engagé",
+        "avis" : {
+            "favorables" : [],
+            "defavorables" : []
         }
     }
 ]
