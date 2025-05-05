@@ -1,22 +1,22 @@
 [
     {
-        "nom" : "caca",
-        "phraseAccroche" : "on peut vendre notre caca",
-        "details" : "on peut vendre notre caca",
-        "textesConsernés" : ["DDHC"],
-        "categories" : ["economie", "ecologie"],
-        "autor" : "richard",
+        "nom" : "Suggestion 1",
+        "phraseAccroche" : "phrase d'accroche",
+        "details" : "detail de la suggestion numero ",
+        "textesConsernés" : ["teste 1"],
+        "categories" : ["categorie 1", "categorie 2"],
+        "autor" : "auteur",
         "avis" : {
             "favorables" : [{
-                "nom" : "michel michel",
-                "avis" : "le caca c'est délicieux",
+                "nom" : "nom avis",
+                "avis" : "avis favorable 1",
                 "nbNote" : 1,
                 "note" : 5
                 }
             ],
             "defavorables" : [{
-                "nom" : "jean michel",
-                "avis" : "oh nom cela vas a l'encontre de la vie pivée (tout le monde pourrais se procurer notre ADN)",
+                "nom" : "nom avis",
+                "avis" : "avis defavorable 1",
                 "nbNote" : 1,
                 "note" : 3
                 }
