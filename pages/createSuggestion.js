@@ -1,5 +1,3 @@
-console.log('ok')
-
 const load_create_suggestion = () => {
     const main = document.getElementById("main");
     main.innerHTML = `
