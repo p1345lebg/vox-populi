@@ -16,7 +16,7 @@ const load_suggestions = () => {
                         <h2>${element.nom}</h2>
                         <p>${element.details}</p>
                         <p>${element.categories}</p>
-                        <p class="autor">${element.redactor}</p>
+                        <p class="autor">${element.autor}</p>
                     </div>
                 `;
             })
@@ -67,7 +67,7 @@ const select_suggestion = (indexSuggestion) => {
                     <h2>${data[indexSuggestion].nom}</h2>
                     <p>${data[indexSuggestion].details}</p>
                     <p>${data[indexSuggestion].categories}</p>
-                    <p>${data[indexSuggestion].redactor}</p>
+                    <p>${data[indexSuggestion].autor}</p>
                 </div>
                 <div class="suggestionAvis">
                     <div class="suggestionAvisPositif">

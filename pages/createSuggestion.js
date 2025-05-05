@@ -23,27 +23,15 @@ const create_suggestion = () => {
     const categories = [];
 
     const suggestion = {
-        "nom" : "caca",
-        "phraseAccroche" : "on peut vendre notre caca",
-        "details" : "on peut vendre notre caca",
-        "textesConsernes" : ["DDHC"],
-        "categories" : ["economie", "ecologie"],
-        "autor" : "richard",
+        "nom" : nom,
+        "phraseAccroche" : phraseAccroche,
+        "details" : details,
+        "textesConsernes" : textesConsernes,
+        "categories" : categories,
+        "autor" : autor,
         "avis" : {
-            "favorables" : [{
-                "nom" : "michel michel",
-                "avis" : "le caca c'est délicieux",
-                "nbNote" : 1,
-                "note" : 5
-                }
-            ],
-            "defavorables" : [{
-                "nom" : "jean michel",
-                "avis" : "oh nom cela vas a l'encontre de la vie pivée (tout le monde pourrais se procurer notre ADN)",
-                "nbNote" : 1,
-                "note" : 3
-                }
-            ]
+            "favorables" : [],
+            "defavorables" : []
         }
     }
     console.log(suggestion)
