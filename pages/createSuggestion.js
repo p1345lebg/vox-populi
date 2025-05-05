@@ -1,14 +1,14 @@
 console.log('ok')
 
-const load_create_article = () => {
+const load_create_suggestion = () => {
     const main = document.getElementById("main");
     main.innerHTML = `
         <div class"creerSuggestion">
             <h1>soumetre une suggestio our une loi</h1>
-            <input type="text" class="PlaceholderNameSuggestion" id="suggestionName" placeholder="nom de la suggestion">nom de l'article</input>
+            <input type="text" class="PlaceholderNameSuggestion" id="suggestionName" placeholder="nom de la suggestion" />
+            <input type="text" class="PlaceholderAccrocheSuggestion" id="suggestionAccroche" placeholder="phrase d'accroche de la suggestion de la suggestion" />
             <textarea id="suggestionContent" placeholder="contenu de la suggestion"></textarea>
-            <input type="date" class="PlaceholderDateSuggestion" id="suggestionContent">date de l'article</input>
-            <input type="text" class="PlaceholderAutorSuggestion" id="suggestionAutor" placeholder="auteur(s) de la suggestion"></input>
+            <input type="text" class="PlaceholderAutorSuggestion" id="suggestionAutor" placeholder="auteur(s) de la suggestion" />
             <button class="submit" onclick="create_suggestion()">soumettre</button>
         </div>
     `
@@ -16,7 +16,7 @@ const load_create_article = () => {
 
 const create_suggestion = () => {
     const nom = document.getElementById("suggestionName").value;
-    const phraseAccroche = null
+    const phraseAccroche = document.getElementById("suggestionAccroche").value;
     const details = document.getElementById("suggestionContent").value;
     const autor = document.getElementById("suggestionAutor").value;
     const textesConsernes = [];
@@ -49,4 +49,4 @@ const create_suggestion = () => {
     console.log(suggestion)
 }
 
-load_create_article()
+load_create_suggestion()
