@@ -220,6 +220,7 @@ input[type="date"],
 textarea {
   width: 100%;
   padding: 0.75rem;
+  margin-top: 2rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: #1e1e1e;
@@ -256,4 +257,34 @@ textarea:focus {
 
 .seperate {
   padding: 1%;
+}
+
+.avertissementSuggestion{
+  background-color: #333;
+  color: #ccc;
+}
+
+.articleDetail{
+  background-color: #333;
+  color: #ccc;
+}
+
+.suggestionLoiDetail{
+  background-color: #333;
+  color: #ccc;
+}
+.suggestionAvis{
+  background-color: #333;
+  color: #ccc;
+  padding: 12px;
+}
+
+.suggestionAvisPositif{
+  background-color: #555;
+  color: #ccc;
+}
+
+.suggestionAvisDefavorable{
+  background-color: #555;
+  color: #ccc;
 }
