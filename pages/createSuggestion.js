@@ -22,7 +22,6 @@ const load_create_suggestion = () => {
 const create_suggestion = () => {
     const agree = document.getElementById("agreeSuggestion").checked;
     const agreeMessage = document.getElementById("agreeMessage");
-    console.log(agree)
     if (!agree){
         agreeMessage.innerHTML = "<p>veuillez accepter les modalités</p>"
     }
