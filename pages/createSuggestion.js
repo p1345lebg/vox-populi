@@ -2,7 +2,7 @@ const load_create_suggestion = () => {
     const main = document.getElementById("main");
     main.innerHTML = `
         <div class"creerSuggestion">
-            <h1>soumetre une suggestio ou une loi</h1>
+            <h1>soumetre une suggestion pour une loi</h1>
             <input type="text" class="PlaceholderNameSuggestion" id="suggestionName" placeholder="nom de la suggestion" />
             <input type="text" class="PlaceholderAccrocheSuggestion" id="suggestionAccroche" placeholder="phrase d'accroche de la suggestion de la suggestion" />
             <textarea id="suggestionContent" placeholder="contenu de la suggestion"></textarea>
