@@ -9,7 +9,7 @@ const load_create_suggestion = () => {
             <input type="text" class="PlaceholderAutorSuggestion" id="suggestionAutor" placeholder="auteur(s) de la suggestion" />
             <div class="avertissementSuggestion">
                 <p>Attention ! Remplire avec de fausse informations est passible de 75 000€ d'amande et de 2 années de prison pour fraude identitaire. Dans de cas d'une éventuelle erreur, veuillez contacter le support.</p>
-                <p>Attention ! Suggerer une loi à but humoristique est passible de 75 000€ d'amendes pour utilisation néfaste d'un service d'Etat</p>
+                <p>Attention ! Suggerer une loi à but humoristique est passible de 75 000€ d'amendes et 1 année sans pouvoir participer à la vie politique consernant ce service pour utilisation néfaste d'un service d'Etat</p>
                 <input type="checkbox" id="agreeSuggestion" />
                 <label for="agreeSuggestion" name="agreeSuggestion">j'accepte les conditions précedemment citées</label>
                 <div id="agreeMessage"></div>
