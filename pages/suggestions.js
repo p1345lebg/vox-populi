@@ -45,8 +45,8 @@ const select_suggestion = (indexSuggestion) => {
                     <div>
                         <p>${element.nom}</p>
                         <p>${element.avis}</p>
-                        <p>${element.note}</p>
-                        <p>${element.nbNote}</p>
+                        <p>note : ${element.note}</p>
+                        <p>nombre de notes : ${element.nbNote}</p>
                     </div>
                 `
             });
@@ -56,8 +56,8 @@ const select_suggestion = (indexSuggestion) => {
                     <div>
                         <p>${element.nom}</p>
                         <p>${element.avis}</p>
-                        <p>${element.note}</p>
-                        <p>${element.nbNote}</p>
+                        <p>note : ${element.note}</p>
+                        <p>nombre de notes : ${element.nbNote}</p>
                     </div>
                 `
             });
